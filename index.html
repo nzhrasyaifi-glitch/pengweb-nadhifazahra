@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Diri - Nadhifa Zahra Syaifi</title>
+    <meta name="description" content="Halaman profil diri Nadhifa Zahra Syaifi, mahasiswa S1 Teknik Informatika UIN Sunan Gunung Djati Bandung.">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Profil Diri - Nadhifa Zahra Syaifi">
+    <meta property="og:description" content="Profil diri, biodata, dan daftar mata kuliah semester Ganjil 2026/2027 Nadhifa Zahra Syaifi.">
+    <meta property="og:image" content="foto-profil.jpg">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f7f6;
+            color: #263238;
+        }
+
+        header {
+            background-color: #14532d;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        nav {
+            background-color: #0f3d24;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        h1, h2, h3 {
+            color: #14532d;
+        }
+
+        header h1 {
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .profil {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .profil img {
+            width: 180px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 4px solid #14532d;
+        }
+
+        .biodata {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #cfd8dc;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #dff3e5;
+            color: #14532d;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f8faf9;
+        }
+
+        .total {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .link {
+            color: #14532d;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #0f3d24;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Profil Diri</h1>
+        <p>Mahasiswa S1 Teknik Informatika</p>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+        <a href="#profil">Profil</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#matakuliah">Mata Kuliah</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main>
+        <section id="profil">
+            <h2>Tentang Saya</h2>
+
+            <div class="profil">
+                <!-- Ganti foto-profil.jpg dengan foto diri sendiri -->
+                <img src="foto-profil.jpg" alt="Foto profil Nadhifa Zahra Syaifi">
+
+                <div class="biodata">
+                    <h3>Nadhifa Zahra Syaifi</h3>
+                    <p>
+                        Halo! Saya <strong>Nadhifa Zahra Syaifi</strong>, mahasiswa
+                        Program Studi S1 Teknik Informatika di Universitas Islam Negeri
+                        Sunan Gunung Djati Bandung. Saya sedang menempuh perkuliahan
+                        pada tahun akademik 2026/2027 semester Ganjil.
+                    </p>
+                    <p>
+                        Saya tertarik untuk terus mengembangkan kemampuan di bidang
+                        teknologi informasi, khususnya dalam pengembangan perangkat lunak
+                        dan teknologi web.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="biodata">
+            <h2>Biodata</h2>
+
+            <h3>Informasi Akademik</h3>
+            <ul>
+                <li><strong>Nama:</strong> Nadhifa Zahra Syaifi</li>
+                <li><strong>NIM:</strong> 1247050020</li>
+                <li><strong>Program Studi:</strong> S1 Teknik Informatika</li>
+                <li><strong>Universitas:</strong> UIN Sunan Gunung Djati Bandung</li>
+                <li><strong>Tahun Akademik:</strong> 2026/2027 Ganjil</li>
+                <li><strong>IP Semester Lalu:</strong> 3.87</li>
+            </ul>
+
+            <p>
+                Informasi universitas dapat dilihat melalui
+                <a class="link"
+                   href="https://uinsgd.ac.id/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    website resmi UIN Sunan Gunung Djati Bandung
+                </a>.
+            </p>
+        </section>
+
+        <section id="matakuliah">
+            <h2>Mata Kuliah Semester Ini</h2>
+            <p>Daftar mata kuliah berdasarkan Kartu Rencana Studi semester Ganjil 2026/2027.</p>
+
+            <table>
+                <caption>Daftar Mata Kuliah Semester Ganjil 2026/2027</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">Kode</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">SKS</th>
+                        <th scope="col">Semester</th>
+                        <th scope="col">Hari & Waktu</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>20100470501024</td>
+                        <td>Manajemen Basis Data</td>
+                        <td>C</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>Rabu, 07:00–09:30</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>20100470501026</td>
+                        <td>Jaringan Komputer</td>
+                        <td>C</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>Kamis, 09:30–12:00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>20100470501030</td>
+                        <td>Pengembangan Aplikasi Web</td>
+                        <td>C</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>Kamis, 12:40–15:10</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>20100470501032</td>
+                        <td>Interaksi Manusia dan Komputer</td>
+                        <td>C</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>Jumat, 12:40–15:10</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>20100470501033</td>
+                        <td>Intelegensia Buatan</td>
+                        <td>C</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>Jumat, 12:40–15:10</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>20100470501034</td>
+                        <td>Manajemen Proyek Perangkat Lunak</td>
+                        <td>C</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>Senin, 12:40–15:10</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>20100470501028</td>
+                        <td>Pengembangan Aplikasi Mobile</td>
+                        <td>C</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>Selasa, 12:40–15:10</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>20100470503005</td>
+                        <td>ICT dan Islam</td>
+                        <td>C</td>
+                        <td>2</td>
+                        <td>7</td>
+                        <td>Selasa, 10:20–12:00</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="total">Jumlah SKS</td>
+                        <td colspan="3"><strong>23 SKS</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>
+                Untuk informasi lebih lanjut mengenai profil saya, silakan
+                menghubungi saya melalui media komunikasi yang tersedia.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nadhifa Zahra Syaifi. Dibuat menggunakan HTML5.</p>
+    </footer>
+</body>
+</html>
